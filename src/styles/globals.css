@@ -1,9 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bree+Serif&family=Merriweather+Sans:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&family=Seymour+One&display=swap");
 
 :root {
   --primary-colour: #379237;
-  --secondary-colour: #f0ff42;
-  --text-colour: #82cd47;
+  --secondary-colour: #82cd47;
+  --text-colour: #e8751a;
+  --primary-font: "Bree Serif", serif;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: white;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
