@@ -75,7 +75,7 @@ export default function Banner() {
           </div>
         </div>
         {/*   second div */}
-        <div className="col-span-6 grid grid-cols-6   gap-5">
+        <div className="col-span-6 lg:grid grid-cols-6   gap-5">
           <div className="col-span-3 flex flex-col justify-center items-start">
             <h4 className="text-lg font-primary_font text-gray-400 mt-4">
               WELCOME TO SHOP
@@ -90,15 +90,17 @@ export default function Banner() {
               incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="col-span-3 relative flex justify-center items-center">
-            <Image
-              className="w-full h-auto justify-center items-center"
-              src={doctor}
-              alt="doctor"
-            />
-            <span className="absolute top-1/2 left-1/2 -translate-x-1/2 font-bold text-primary_colour text-6xl fill-text_colour">
-              <FaCirclePlay />
-            </span>
+          <div className="col-span-3 relative flex justify-center items-center ">
+            <div className="w-2/3 h-1/2">
+              <Image
+                className=" justify-center items-center"
+                src={doctor}
+                alt="doctor"
+              />
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 font-bold text-primary_colour md:text-6xl text-3xl fill-text_colour">
+                <FaCirclePlay />
+              </span>
+            </div>
           </div>
         </div>
       </div>
