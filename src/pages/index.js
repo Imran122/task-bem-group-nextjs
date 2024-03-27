@@ -1,4 +1,5 @@
 import Banner from "@/components/Home/Banner";
+import Experts from "@/components/Home/Experts";
 import Header from "@/components/Home/Header";
 import Footer from "@/components/Shared/Footer";
 import { Inter } from "next/font/google";
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Header />
       <Banner />
+      <Experts />
       <Footer />
     </div>
   );
