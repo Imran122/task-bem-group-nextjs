@@ -19,10 +19,10 @@ export default function Header() {
         <div className="col-span-3">
           <ul className="lg:flex gap-10 mb-3  justify-center items-center  space-x-4  hidden">
             <li className="font-third_font_medium font-light text-primary_text text-lg">
-              Home
+              <Link href="/"> Home</Link>
             </li>
             <li className="font-third_font_medium font-light text-primary_text text-lg">
-              <Link href="/profile"> Profile</Link>
+              <Link href="/profile">Profile</Link>
             </li>
             <li className="font-third_font_medium font-light text-primary_text text-lg">
               <Link href="/edit-profile">Edit Profile</Link>
@@ -84,7 +84,7 @@ export default function Header() {
           <ul className="mt-2">
             <div onClick={toggleMenu}>
               <li className="border py-2 mt-2 px-3 rounded shadow font-semibold">
-                Home
+                <Link href="/"> Home</Link>
               </li>
             </div>
             <div onClick={toggleMenu}>
