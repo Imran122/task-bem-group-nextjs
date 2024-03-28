@@ -58,10 +58,9 @@ export default function Profile() {
           </div>
           <h4 class="text-md font-medium leading-3">About</h4>
           <p class="text-sm text-stone-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-            dolores aliquid sequi sunt iusto ipsum earum natus omnis asperiores
-            architecto praesentium dignissimos pariatur, ipsa cum? Voluptate
-            vero eius at voluptas?
+            A professional bio or biography is a short overview of your
+            experience. Professional bios usually include details about
+            education.
           </p>
           <h4 class="text-md font-medium leading-3">Experiences</h4>
           <div class="flex flex-col gap-3">
