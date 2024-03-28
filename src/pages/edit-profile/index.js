@@ -26,15 +26,15 @@ export default function EditProfile() {
                 <div class="flex items-center mb-5">
                   <label
                     for="name"
-                    class="w-20 inline-block text-right mr-4 text-text_colour"
+                    class="w-32 inline-block text-right mr-4 text-text_colour"
                   >
-                    Name
+                    First Name
                   </label>
                   <input
-                    name="name"
+                    name="firstname"
                     id="name"
                     type="text"
-                    placeholder="Your name"
+                    placeholder="Your First Name"
                     class="border-b-2 border-gray-400 flex-1 py-2 placeholder-gray-300 outline-none focus:border-green-400"
                   />
                 </div>
@@ -42,15 +42,15 @@ export default function EditProfile() {
                 <div class="flex items-center mb-10">
                   <label
                     for="twitter"
-                    class="w-20 inline-block text-right mr-4 text-text_colour"
+                    class="w-32 inline-block text-right mr-4 text-text_colour"
                   >
-                    Twitter
+                    Last Name
                   </label>
                   <input
                     type="text"
-                    name="twitter"
+                    name="lastname"
                     id="twitter"
-                    placeholder="Your Twitter pseudonym"
+                    placeholder="Your Last Name"
                     class="border-b-2 border-gray-400 flex-1 py-2 placeholder-gray-300 outline-none focus:border-green-400"
                   />
                 </div>
