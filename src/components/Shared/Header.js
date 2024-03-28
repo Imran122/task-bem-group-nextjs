@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
@@ -21,7 +22,10 @@ export default function Header() {
               Home
             </li>
             <li className="font-third_font_medium font-light text-primary_text text-lg">
-              Profile
+              <Link href="/profile"> Profile</Link>
+            </li>
+            <li className="font-third_font_medium font-light text-primary_text text-lg">
+              <Link href="/edit-profile">Edit Profile</Link>
             </li>
 
             <li className="font-third_font_medium font-light text-primary_text text-lg flex gap-2 justify-center items-center">
@@ -30,9 +34,6 @@ export default function Header() {
                 {" "}
                 <IoIosArrowDown />
               </span>
-            </li>
-            <li className="font-third_font_medium font-light text-primary_text text-lg">
-              Contact Us
             </li>
           </ul>
         </div>
@@ -88,7 +89,12 @@ export default function Header() {
             </div>
             <div onClick={toggleMenu}>
               <li className="border py-2 mt-2 px-3 rounded shadow font-semibold">
-                Profile
+                <Link href="/profile"> Profile</Link>
+              </li>
+            </div>
+            <div onClick={toggleMenu}>
+              <li className="border py-2 mt-2 px-3 rounded shadow font-semibold">
+                <Link href="/edit-profile"> Edit Profile</Link>
               </li>
             </div>
 
